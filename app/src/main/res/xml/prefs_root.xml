@@ -1,0 +1,32 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <PreferenceCategory android:title="Preference category">
+
+
+
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Auth">
+
+        <EditTextPreference
+            android:defaultValue="Default value"
+            android:key="prf_set_api_key"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="Set API key"
+            android:summary="Paste your OpenAI auth key here" />
+        <Preference
+            android:key="prf_get_api_key"
+            android:summary="OpenAI gives a bunch of free API credit when you make an account - you can generate an API key here."
+            android:title="Create an API key" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Credits">
+    </PreferenceCategory>
+    <Preference
+        android:key="prf_github"
+        android:title="Github" />
+
+
+
+</PreferenceScreen>

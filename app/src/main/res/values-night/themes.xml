@@ -1,0 +1,45 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.QuickGPT" parent="Theme.MaterialComponents.DayNight">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/dark_purple_900</item>
+        <item name="colorPrimaryVariant">@color/purple_900</item>
+        <item name="colorOnPrimary">@color/orange_50</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/cyan_400</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+        <!-- backgrounds -->
+        <item name="android:windowBackground">@color/dark_theme_background</item>
+
+
+
+
+
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+
+
+
+        <!-- remove top bar -->
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+
+        <!--  dark style stuff  -->
+        <!-- <item name="android:windowLightStatusBar">true</item>  too much lol  -->
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:forceDarkAllowed">true</item>
+
+
+
+        <!-- a fat theme: -->
+
+
+
+
+        <!--  -->
+
+    </style>
+</resources>
